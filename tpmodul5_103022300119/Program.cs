@@ -19,6 +19,6 @@ class Program
     static void Main()
     {
         DataGeneric<string> dataNIM = new DataGeneric<string>("103022300119");
-        dataNIM.PrintData("Riziq");
+        dataNIM.PrintData();
     }
 }
